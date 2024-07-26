@@ -7,7 +7,31 @@
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <header>
+    <nav>
+        <div class="container">
+            <div class="navbar-toggle">Menu</div>
+            <ul class="navbar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#competencies">Key Competencies</a></li>
+                <li><a href="#skills">Technical Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#extracurricular">Extracurricular Activities</a></li>
+            </ul>
+            <ul class="navbar-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#competencies">Key Competencies</a></li>
+                <li><a href="#skills">Technical Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#extracurricular">Extracurricular Activities</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="about" class="card">
         <div class="container header-container">
             <div class="profile-img">
                 <img src="./images/professional picture.jpg" alt="Swetha S">
@@ -15,19 +39,14 @@
             <div class="header-content">
                 <h1>Swetha S</h1>
                 <p>8610958486 | <a href="mailto:727822TUEC238@skct.edu.in">727822TUEC238@skct.edu.in</a></p>
-                <p>3/382, Kadanad village, kadanad post, The Nilgiris 643206</p>
+                <p>3/382, Kadanad village, Kadanad post, The Nilgiris 643206</p>
+                <h2>About Me</h2>
+                <p>Enthusiastic and driven third-year Electronics and Communication Engineering student with a passion for technology and innovation. Adept at combining theoretical knowledge with practical application to solve complex engineering challenges. Eager to contribute my skills and learn from dynamic projects in the field of software engineering. Committed to continuous learning and professional growth. Actively seeking internship opportunities to apply classroom knowledge in real-world settings and further develop practical skills.</p>
             </div>
         </div>
     </header>
     
     <main>
-        <section id="about" class="card">
-            <div class="container">
-                <h2>About Me</h2>
-                <p>Enthusiastic and driven second-year Electrical and Communication Engineering student with a passion for technology and innovation. Adept at combining theoretical knowledge with practical application to solve complex engineering challenges. Eager to contribute my skills and learn from dynamic projects in the field of software engineering. Committed to continuous learning and professional growth. Actively seeking internship opportunities to apply classroom knowledge in real-world settings and further develop practical skills.</p>
-            </div>
-        </section>
-
         <section id="competencies" class="card">
             <div class="container">
                 <h2>Key Competencies</h2>
@@ -68,9 +87,15 @@
         <section id="certifications" class="card">
             <div class="container">
                 <h2>Certifications</h2>
-                <div class="grid">
-                    <div class="grid-item">NPTEL - Effective Writing (Passed with Elite Certificate)</div>
-                    <div class="grid-item">MATLAB Onramp - Self-paced training course</div>
+                <div class="grid certifications-grid">
+                    <div class="certification-item">
+                        <img src="./images/Effective Writing (1)_page-0001.jpg" alt="NPTEL Certificate">
+                        <p>NPTEL - Effective Writing (Passed with Elite Certificate)</p>
+                    </div>
+                    <div class="certification-item">
+                        <img src="./images/MATLAB Onramp Certificate-1_page-0001.jpg" alt="MATLAB Certificate">
+                        <p>MATLAB Onramp - Self-paced training course</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -78,10 +103,19 @@
         <section id="education" class="card">
             <div class="container">
                 <h2>Education</h2>
-                <div class="grid">
-                    <div class="grid-item">Sri Krishna College of Technology - B.E. Electronics and Communication Engineering</div>
-                    <div class="grid-item">The Oxford Continental Higher Secondary School - Higher Secondary Education</div>
-                    <div class="grid-item">Gurukulam Matriculation School - Secondary Education</div>
+                <div class="grid education-grid">
+                    <div class="education-item">
+                        <img src="./images/skc.jpeg" alt="SKCT Logo">
+                        <div>Sri Krishna College of Technology - B.E. Electronics and Communication Engineering</div>
+                    </div>
+                    <div class="education-item">
+                        <img src="./images/oxford.png" alt="Oxford Logo">
+                        <div>The Oxford Continental Higher Secondary School - Higher Secondary Education</div>
+                    </div>
+                    <div class="education-item">
+                        <img src="./images/gurukulam.jpeg" alt="Gurukulam Logo">
+                        <div>Gurukulam Matriculation School - Secondary Education</div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -98,13 +132,17 @@
                 </div>
             </div>
         </section>
-        
+
         <section id="references" class="card">
             <div class="container">
                 <h2>References</h2>
-                <div class="grid">
-                    <div class="grid-item">Ms. Krithika N, Assistant Professor ECE, Sri Krishna College of Technology, Ph: 9489482200</div>
-                    <div class="grid-item">Dr. Muthulakshmi K, Professor ECE, Sri Krishna College of Technology, Ph: 8754842992</div>
+                <div class="slider">
+                    <div class="slide">
+                        <p>Ms. Krithika N, Assistant Professor ECE, Sri Krishna College of Technology, Ph: 9489482200</p>
+                    </div>
+                    <div class="slide">
+                        <p>Dr. Muthulakshmi K, Professor ECE, Sri Krishna College of Technology, Ph: 8754842992</p>
+                    </div>
                 </div>
             </div>
         </section>
